@@ -11,13 +11,11 @@ btn.addEventListener('click', function () {
     let check_email = false;
     //CICLO ARRAY//
     for (let i = 0; i < emails.length; i++) {
-        if (emails[i] != user_email) {
-            check_email = false;
-        }
-        else {
+        if (emails[i] == user_email) {
             check_email = true;
-           
+            console.log('Trovato');
         }
+        console.log(i);
     }
 
     if (check_email) {
