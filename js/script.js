@@ -1,5 +1,5 @@
 //STABILISCO SU QUALE EMAIL EFFETTUARE LA VERIFICA//
-let emails = ['fabiomarzano@gmail.com', 'federica@gmail.com', 'giulio@gmail.com', 'donatina@gmail.com'];
+let emails = ['fabiomarzano@email.com', 'federica@mail.com', 'giulio@mail.com', 'donatina@mail.com'];
 //RECUPERO IL PULSANTE DAL DOM//
 const btn = document.getElementById('check');
 
